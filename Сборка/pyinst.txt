@@ -1,0 +1,15 @@
+pyinstaller -w -i "icon.ico" Àíêåòû30èþëÿ.py --exclude-module PyQt5
+
+pyinstaller -w -i "icon.ico" Àíêåòû13èþíÿ.py --exclude-module PyQt5 --exclude-module PyQt5 --exclude-module locale --exclude-module colorsys --exclude-module sunau --exclude-module chuck --exclude-module wave --exclude-module aifc --exclude-module audioop --exclude-module pprint --exclude-module statictics --exclude-module fractions --exclude-module math  --exclude-module shutil --exclude-module glob --exclude-module json --exclude-module zlib --exclude-module gzip --exclude-module bz2 --exclude-module pickle --exclude-module dbm --exclude-module marshal --exclude-module shelve --exclude-module zipfile --exclude-module tarfile --exclude-module csv --exclude-module plislib --exclude-module xdrlib --exclude-module configparser --exclude-module xml --exclude-module urllib --exclude-module random --exclude-module ftp --exclude-module sqlite3.dll --exclude-module tcl85.dll --exclude-module tk85.dll --exclude-module _sqlite3 --exclude-module _ssl --exclude-module _gtkagg --exclude-module _tkagg --exclude-module bsddb --exclude-module curses --exclude-module pywin.debugger --exclude-module pywin.debugger.dbgcon --exclude-module pywin.dialogs --exclude-module tcl --exclude-module Tkconstants --exclude-module Tkinter --exclude-module pdb --exclude-module timeit --exclude-module trace --exclude-module tracemalloc --exclude-module bdb --exclude-module venv --exclude-module zipapp --exclude-module crypt --exclude-module syslog --exclude-module Tkconstants --exclude-module unittest --exclude-module unittest.mock --exclude-module win32 --exclude-module hashlib --exclude-module hmac --exclude-module secrets --exclude-module time --exclude-module logging --exclude-module string
+
+pyinstaller -w -i "icon.ico" Novela.py --exclude-module PyQt5
+
+pyinstaller -c -i "icon.ico" textmarker_file.py --exclude-module PyQt5
+
+pyinstaller -F -w -i "icon.ico" Îò÷åò_ÏÊÏÊ_[22.09.21].spec --exclude-module PyQt5
+
+pyinstaller -F -w -i "icon.ico" PizzaChart v1.0 [16.11.21].py --exclude-module PyQt5
+
+pyinstaller -F -w -i "icon.ico" Ìåãàîò÷åòv0.5.py --exclude-module PyQt5
+
+pyinstaller -ñ -i "icon.ico" Ñóïåðîò÷åòv0.7.py --exclude-module PyQt5
