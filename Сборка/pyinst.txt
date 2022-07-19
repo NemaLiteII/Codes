@@ -13,3 +13,5 @@ pyinstaller -F -w -i "icon.ico" PizzaChart v1.0 [16.11.21].py --exclude-module P
 pyinstaller -F -w -i "icon.ico" Мегаотчетv0.5.py --exclude-module PyQt5
 
 pyinstaller -c -i "icon.ico" Суперотчетv0.7.py --exclude-module PyQt5
+
+wtsexporter -i -b "C:\Users\kan.mv\AppData\Roaming\Apple Computer\MobileSync\Backup\0f18fe1d2a5b23907ce632bc5caa92f819e7cbcf" -o "P:\work\123"
