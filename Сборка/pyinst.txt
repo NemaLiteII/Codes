@@ -17,3 +17,5 @@ pyinstaller -c -i "icon.ico" Суперотчетv0.7.py --exclude-module PyQt5
 wtsexporter -i -b "C:\Users\kan.mv\AppData\Roaming\Apple Computer\MobileSync\Backup\0f18fe1d2a5b23907ce632bc5caa92f819e7cbcf" -o "P:\work\123"
 
 pyinstaller -F -w -i "icon5.ico" Мегаотчетv0.7_l3.py --exclude-module PyQt5
+
+pyinstaller -F -w -i "icon.ico" Мегаотчетv0.8_local.py --exclude-module PyQt5
